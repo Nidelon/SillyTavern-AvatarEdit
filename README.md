@@ -2,20 +2,22 @@
 
 Add an endpoint to replace the avatar of a character.
 
-Needed for [SillyTavern-AnotherCharManager](https://github.com/sakhavhyand/SillyTavern-AnotherCharManager) extension in order to use the avatar replacement feature.
-
 ## Installation
 
-1. **Before you begin, make sure you set a config `enableServerPlugins` to `true` in the config.yaml file of SillyTavern.**
+1. **Enable Plugins in SillyTavern**
+   Open `config.yaml` in your main SillyTavern directory and set:
 
-2. Open a terminal in your SillyTavern directory, then run the following:
+    ```yaml
+    enableServerPlugins: true
+    ```
 
-```
-cd plugins
-git clone https://github.com/sakhavhyand/SillyTavern-AvatarEdit
-```
+2. **Clone the Repository**
+   Navigate to the `plugins` folder and clone the project:
 
-3. Restart the SillyTavern server.
+    ```bash
+    cd plugins
+    git clone https://github.com/Nidelon/SillyTavern-AvatarEdit
+    ```
 
 ## Usage
 ```
@@ -30,3 +32,7 @@ FORMDATA
 }
 -> Code 200
 ```
+
+## License
+
+MIT
